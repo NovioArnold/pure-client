@@ -1,10 +1,15 @@
+import Post from "./Post/Post";
+import useStyles from "./styles";
+
 const Posts = () => {
-    return (
-        <div>
-            <h1>Posts</h1>
-        </div>
-    )
+  const classes = useStyles();
+  return (
+    <>
+      <h1>Posts</h1>
+      <Post />
+      <Post />
+    </>
+  );
+};
 
-}
-
-export default Posts
+export default Posts;

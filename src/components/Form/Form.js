@@ -1,9 +1,12 @@
-const Form = () => {
-    return (
-        <form>
-            <h1>Create a Memory</h1>
-        </form>
-    )
-}
+import useStyles from "./styles";
 
-export default Form
+const Form = () => {
+  const classes = useStyles();
+  return (
+    <>
+      <h1>Create a Memory</h1>
+    </>
+  );
+};
+
+export default Form;
